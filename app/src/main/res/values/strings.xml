@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ProgettoS3_v2</string>
+    <string name="title_activity_registrazione">Registrazione</string>
+    <string name="strLogin">Login</string>
+    <string name="strUsername">Username</string>
+    <string name="strPassword">Password</string>
+    <string name="strConfirmPassword">Conferma password</string>
 </resources>
