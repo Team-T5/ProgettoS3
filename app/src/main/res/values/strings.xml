@@ -5,4 +5,9 @@
     <string name="strUsername">Username</string>
     <string name="strPassword">Password</string>
     <string name="strConfirmPassword">Conferma password</string>
+    <string name="strRemeberMe">Ricordami</string>
+    <string name="strLoginButton">Accedi</string>
+    <string name="strRegister">Se non hai ancora un account</string>
+    <string name="strRegisterButton">Registrati</string>
+    <string name="strRegistrazione">Registrazione</string>
 </resources>

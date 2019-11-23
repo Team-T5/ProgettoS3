@@ -22,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/strLogin"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
@@ -69,14 +70,68 @@
         app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editUsername"
         android:layout_width="350dp"
         android:layout_height="44dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
         app:layout_constraintTop_toBottomOf="@+id/txtUsername" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/strPassword"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/editUsername" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+    <CheckBox
+        android:id="@+id/checkRicordami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/strRemeberMe"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+    <Button
+        android:id="@+id/btnAccedi"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strLoginButton"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkRicordami"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toEndOf="@+id/checkRicordami" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/strRegister"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/checkRicordami" />
+
+    <Button
+        android:id="@+id/btnRegistrati"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strRegisterButton"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtRegister"
+        app:layout_constraintStart_toStartOf="@+id/btnAccedi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
