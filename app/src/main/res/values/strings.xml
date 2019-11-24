@@ -20,4 +20,9 @@
     <string name="strExerciseResearch">Ricerca esercizi</string>
     <string name="strInsertExercise">Inserimento esercizi</string>
     <string name="strExerciseStats">Statistiche esercizi</string>
+    <string name="strSingleCategory">Singola \ncategoria</string>
+    <string name="strExamStructure">Struttura \nesame</string>
+    <string name="strSubject">Materia</string>
+    <string name="strCategory">Categoria</string>
+    <string name="strSearch">Cerca</string>
 </resources>
