@@ -1,4 +1,4 @@
-package com.example.progettos3_v2.Tables;
+package com.example.progettos3_v2.Tabelle;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;

@@ -1,7 +1,9 @@
 <resources>
+    <!-- A lavoro completato inserire dei commenti per organizzare al meglio questo file -->
     <string name="app_name">ProgettoS3_v2</string>
     <string name="title_activity_registrazione">Registrazione</string>
     <string name="strLogin">Login</string>
+    <string name="strLogout">Logout</string>
     <string name="strUsername">Username</string>
     <string name="strPassword">Password</string>
     <string name="strConfirmPassword">Conferma password</string>
@@ -10,4 +12,12 @@
     <string name="strRegister">Se non hai ancora un account</string>
     <string name="strRegisterButton">Registrati</string>
     <string name="strRegistrazione">Registrazione</string>
+    <string name="insertUsername">Inserire l\'username</string>
+    <string name="insertPassword">Inserire la password</string>
+    <string name="insertConfirmPassword">Confermare la password</string>
+    <string name="differentPasswordInputs">Le password inserite non coincidono</string>
+    <string name="strHome">Home</string>
+    <string name="strExerciseResearch">Ricerca esercizi</string>
+    <string name="strInsertExercise">Inserimento esercizi</string>
+    <string name="strExerciseStats">Statistiche esercizi</string>
 </resources>

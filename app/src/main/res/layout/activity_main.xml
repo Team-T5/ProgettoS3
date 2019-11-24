@@ -111,6 +111,7 @@
         android:id="@+id/btnAccedi"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
+        android:onClick="Login"
         android:text="@string/strLoginButton"
         app:layout_constraintBaseline_toBaselineOf="@+id/checkRicordami"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,6 +131,7 @@
         android:id="@+id/btnRegistrati"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
+        android:onClick="gotoRegistrati"
         android:text="@string/strRegisterButton"
         app:layout_constraintBaseline_toBaselineOf="@+id/txtRegister"
         app:layout_constraintStart_toStartOf="@+id/btnAccedi" />
