@@ -23,7 +23,7 @@ public class singolaCategoria extends AppCompatActivity {
         Pseudo codice:
         Materia.onChanege(){
                 Se materia == null  //L'utente potrebe selezionare di nuovo null
-                        Impota categoria e pulsante invisibili e non cliccabili
+                        Imposta categoria e pulsante invisibili e non cliccabili
                 Altrimenti
                         Esegui la query per prelevare le categorie correlate alla materia
                         e stampa lo spinner delle cagegorie

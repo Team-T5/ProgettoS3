@@ -14,26 +14,28 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText editUsername, editPassword;
+    CheckBox checkRicordami;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Istanzio i riferimenti agli elementi
+        editUsername = findViewById(R.id.editUsername);
+        editPassword = findViewById(R.id.editPassword);
+        checkRicordami = findViewById(R.id.checkRicordami);
     }
 
     public void Login(View view){
         Realm realm = Realm.getDefaultInstance();
         try{
-            //Prelevo i valori delle caselle di testo e della checkbox
-            EditText editUsername, editPassword;
-            CheckBox checkRicordami;
 
             String strUsername, strPassword;
             Boolean Ricordami;
 
-            editUsername = findViewById(R.id.editUsername);
-            editPassword = findViewById(R.id.editPassword);
-            checkRicordami = findViewById(R.id.checkRicordami);
-
+            //Prelevo i valori delle caselle di testo
             strUsername = editUsername.getText().toString();
             strPassword = editPassword.getText().toString();
             if(checkRicordami.isChecked()){

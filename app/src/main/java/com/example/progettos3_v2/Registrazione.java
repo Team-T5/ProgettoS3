@@ -16,21 +16,23 @@ import android.widget.Toast;
 
 public class Registrazione extends AppCompatActivity {
 
+    EditText editUsername, editPassword, editConfermaPassword;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrazione);
+
+        //Istanzio i riferimenti agli elementi
+        editUsername = findViewById(R.id.editUsername);
+        editPassword = findViewById(R.id.editPassword);
+        editConfermaPassword = findViewById(R.id.editConfermaPassword);
     }
 
     public void Registrati(View view){
 
         //Prelevo i dati dall'interfaccia
-        EditText editUsername, editPassword, editConfermaPassword;
         String strUsername, strPassword, strConfermaPassword;
-
-        editUsername = findViewById(R.id.editUsername);
-        editPassword = findViewById(R.id.editPassword);
-        editConfermaPassword = findViewById(R.id.editConfermaPassword);
 
         strUsername = editUsername.getText().toString();
         strPassword = editPassword.getText().toString();
